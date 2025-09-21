@@ -77,7 +77,7 @@ Steer the mermaid away from the bubbles and the walls for as long as possible.
 
 ### 7. Add sound effects and background music (5 points)
 **Implementation**: I added 3 sound effects to the game: ambient background music, splashing when the mermaid moves, and a pop on the players death.
-**Game Impact**: It adds a lot of interest to the game by giving it auditory input in addition to visual. I also thing it makes it more clear when the mermaid is being sped up vs is coasting, and a more definitive end with the pop.
+**Game Impact**: It adds a lot of interest to the game by giving it auditory input in addition to visual. I also think it makes it more clear when the mermaid is being sped up vs is coasting, and a more definitive end with the pop.
 **Technical Details**: Added audio sources to the main scene or pre-existing objects to ensure they were active at the right times.
 **Known Issues**: N/A
 
@@ -94,14 +94,17 @@ Steer the mermaid away from the bubbles and the walls for as long as possible.
   - Mermaid swiming effect from:
 - Visual Assets:
   - All assets created by me with the software PixelStudio
-    - Coincidentaly, PS was created in Unity
+    - Coincidentaly, PixelStudio was created in Unity
 
 ## Reflection
-**Total Points Claimed**: Base: 80% + Extensions: 32% = 112%
+**Total Points Claimed**: Base: 80% + Extensions: 32% = 112% (I could be wrong about getting the points from animating the booster graphic w/ sound effects, in that case it is 106%)
 
-**Challenges**: Getting all of the movement settings properly tuned in to be challenging but not overly frustrating was difficult, as changing one of them meant the others needed ot be adjusted to reflect it. Additionally, getting the custom sprite into the particle effects required making a whole new material with specific settings. The mermaid sprites being different sized was a large problem until I scaled one down and changed the collision boxes, as it was nearly impossible to play with the original settings.
+**Challenges**: 
+- Getting all of the movement settings properly tuned in to be challenging but not overly frustrating was difficult, as changing one of them meant the others needed ot be adjusted to reflect it.
+- Additionally, getting the custom sprite into the particle effects required making a whole new material with specific settings. The first test had solid black squares for the sprites, and I had to change the type of texture it was rendering to fix it.
+- The mermaid sprites being different sized was a large problem until I scaled one down and changed the collision boxes, as it was nearly impossible to play with the original settings.
 
-**Learning Outcomes**: I learned a lot aout how the Unity platform works, and how to use it most effectivly with prefabs, custom scripts, public variables, and built-in settings.
+**Learning Outcomes**: I learned a lot about how the Unity platform works, and how to use it most effectivly with prefabs, custom scripts, public variables, and built-in settings.
 
 ## Development Notes
 I had a great time!
