@@ -27,7 +27,7 @@ Steer the mermaid away from the bubbles and the walls for as long as possible.
 - [X] Borders Dissapear
 - [X] Difficulty Scaling
 - [ ] High Score Rememberance
-- [ ] Character Decision
+- [ ] Character Customization
 
 ### Known Bugs
 - The mermaid's speed in the WebGL version is extremly slow.
