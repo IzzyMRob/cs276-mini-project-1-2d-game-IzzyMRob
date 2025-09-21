@@ -46,7 +46,7 @@ Steer the mermaid away from the bubbles and the walls for as long as possible.
 **Known Issues**: N/A
 
 ### 1. Change your entire Game Concept (3 points)
-**Implementation**: I created custom sprites for the obstacles, player, background, and particles. The background was a square I could tile to cover the whole area. The mermaid has 2 versions, one for when it is moving and one for when it is not. The bubbles and particles are just simple png files.
+**Implementation**: I used PixelStudio to create custom sprites for the obstacles, player, background, and particles. The background was a square I could tile to cover the whole area. The mermaid has 2 versions, one for when it is moving and one for when it is not. The bubbles and particles are just simple png files.
 **Game Impact**: I imported my assets as png files and replaced the original sprites of each object/prefab with my new ones.
 **Technical Details**: Replacing an objects default sprite, adjusting the collision boxes to reflect the new sprites.
 **Known Issues**: N/A
